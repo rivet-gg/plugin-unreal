@@ -16,7 +16,7 @@ _Has not been tested with Unreal Engine 4._
 ### Method 2: Copy manually
 
 1. Create a `Plugins` folder in the root of your project (it may already exist)
-2. Copy the `Rivet/` folder from this repository to the `Plugins/Rivet/` folder in your project
+2. Copy the `Plugins/Rivet/` folder from this repository to the `Plugins/Rivet/` folder in your project
 3. Restart the Unreal editor
 
 ## Getting started

@@ -1,0 +1,31 @@
+{
+    "FileVersion" : 3,
+    "Version" : 1,
+    "VersionName" : "0.0.1",
+    "FriendlyName" : "Rivet Plugin",
+    "Description" : "Open-source solution to deploy, scale, and operate your multiplayer game",
+    "Category" : "Multiplayer",
+    "CreatedBy" : "Rivet Gaming, Inc.",
+    "CreatedByURL" : "https://rivet.gg/",
+    "DocsURL" : "https://rivet.gg/learn/unreal",
+    "MarketplaceURL" : "",
+    "SupportURL" : "https://rivet.gg/support",
+    "EnabledByDefault" : true,
+    "CanContainContent" : false,
+    "IsBetaVersion" : false,
+    "Installed" : false,
+    "Modules" :
+    [
+        {
+            "Name" : "Rivet",
+            "Type" : "Runtime",
+            "LoadingPhase" : "Default",
+            "WhitelistPlatforms": [
+				"Win64",
+				"Linux",
+				"IOS",
+				"Mac"
+			]
+        }
+    ]
+}

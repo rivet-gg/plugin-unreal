@@ -29,8 +29,8 @@ public:
 
     FString GetToken() const
     {
-        if (!Token.IsEmpty()) return Token;
-        else if (!EnvToken.IsEmpty()) return EnvToken;
+        if (!EnvToken.IsEmpty()) return EnvToken;
+        else if (!Token.IsEmpty()) return Token;
         else return DefaultToken;
     }
 
@@ -48,7 +48,7 @@ public:
         if (!MatchmakerUrl.IsEmpty()) return MatchmakerUrl;
         else if (!EnvMatchmakerUrl.IsEmpty()) return EnvMatchmakerUrl;
         else if (!DefaultMatchmakerUrl.IsEmpty()) return DefaultMatchmakerUrl;
-        else return TEXT("https://matchmaker.api.rivet.gg/v1");
+        else return TEXT("https://api.rivet.gg/matchmaker");
     }
     
     FString BuildUrl(FString Url, FString Path) const;

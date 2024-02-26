@@ -48,7 +48,7 @@ public:
         if (!MatchmakerUrl.IsEmpty()) return MatchmakerUrl;
         else if (!EnvMatchmakerUrl.IsEmpty()) return EnvMatchmakerUrl;
         else if (!DefaultMatchmakerUrl.IsEmpty()) return DefaultMatchmakerUrl;
-        else return TEXT("https://matchmaker.api.rivet.gg/v1");
+        else return TEXT("https://api.rivet.gg/matchmaker");
     }
     
     FString BuildUrl(FString Url, FString Path) const;

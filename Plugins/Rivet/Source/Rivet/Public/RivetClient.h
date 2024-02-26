@@ -29,8 +29,8 @@ public:
 
     FString GetToken() const
     {
-        if (!Token.IsEmpty()) return Token;
-        else if (!EnvToken.IsEmpty()) return EnvToken;
+        if (!EnvToken.IsEmpty()) return EnvToken;
+        else if (!Token.IsEmpty()) return Token;
         else return DefaultToken;
     }
 
